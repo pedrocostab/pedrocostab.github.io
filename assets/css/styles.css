@@ -502,6 +502,11 @@ cursor: pointer;
   width: 40%;
 }
 
+.skills__close .skills__list{
+  height: 0;
+  overflow: hidden;
+}
+
 /*==================== QUALIFICATION ====================*/
 
 
