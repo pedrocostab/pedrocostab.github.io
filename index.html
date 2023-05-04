@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -544,14 +544,14 @@
             <h2 class="section__title">Portfolio</h2>
             <span class="section__subtitle">Most recent work</span>
 
-            <div class="portfolio__container container">
-                <div>
-                    <!--==================== PORTFOLIO ====================-->
-                    <div class="portfolio__content grid">
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Dashboard Marilan</h3>
+                            <h3 class="portfolio__title">Marilan</h3>
                             <p class="portfolio__description">SAC Dashboard created getting data from SAP ERP</p>
                             <a href="#" class="button button--flex button--small button--small portfolio__button">
                                 Demo
@@ -561,12 +561,13 @@
                         </div>
                     </div>
                     <!--==================== PORTFOLIO 2====================-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Dashboard Globo</h3>
-                            <p class="portfolio__description">Marketing area Dashboard created getting data from ANATEL</p>
+                            <h3 class="portfolio__title">Globo</h3>
+                            <p class="portfolio__description">Marketing area Dashboard created getting data from ANATEL
+                            </p>
                             <a href="#" class="button button--flex button--small button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
@@ -575,12 +576,27 @@
                         </div>
                     </div>
                     <!--==================== PORTFOLIO 3 ====================-->
-                    <div class="portfolio__content grid">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Dashboard Nexel</h3>
-                            <p class="portfolio__description">Operational, tactical and strategical Dashboard created getting data from ERP</p>
+                            <h3 class="portfolio__title">Nexel</h3>
+                            <p class="portfolio__description">Operational, tactical and strategical Dashboard created
+                                getting data from Nexel ERP</p>
+                            <a href="#" class="button button--flex button--small button--small portfolio__button">
+                                Demo
+                                <i class="uil uil-arrow-right button__icon"></i>
+
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 4 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Other Clients as Onebeat Employee</h3>
+                            <p class="portfolio__description">Monitoring results and creating operational Dashboards</p>
                             <a href="#" class="button button--flex button--small button--small portfolio__button">
                                 Demo
                                 <i class="uil uil-arrow-right button__icon"></i>
@@ -589,6 +605,12 @@
                         </div>
                     </div>
                 </div>
+                <!-- Add Arrows -->
+                <div class="div swiper-button-next"></div>
+                <div class="div swiper-button-prev"></div>
+
+                <!-- Add Pagination -->
+                <div class="div swiper-pagination"></div>
             </div>
         </section>
 
@@ -617,7 +639,7 @@
 
 
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
