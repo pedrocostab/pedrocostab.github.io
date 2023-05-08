@@ -564,6 +564,15 @@ cursor: pointer;
 }
 
 /*==================== QUALIFICATION ====================*/
+.qualification__viewmore{
+  cursor: pointer;
+  font-size: var(--small-font-size);
+}
+
+.qualification__viewmore:hover{
+  transform: translateX(.25rem);
+}
+
 .qualification__tabs{
   display: flex;
   justify-content: space-evenly;
