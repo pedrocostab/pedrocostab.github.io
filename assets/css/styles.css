@@ -507,11 +507,11 @@ cursor: pointer;
 }
 
 .skills__python{
-  width: 80%;
+  width: 95%;
 }
 
 .skills__sql{
-  width: 90%;
+  width: 95%;
 }
 
 .skills__tableau{
@@ -523,7 +523,7 @@ cursor: pointer;
 }
 
 .skills__figma{
-  width: 60%;
+  width: 70%;
 }
 
 .skills__angular{
@@ -535,15 +535,15 @@ cursor: pointer;
 }
 
 .skills__html{
-  width: 50%;
+  width: 80%;
 }
 
 .skills__css{
-  width: 50%;
+  width: 80%;
 }
 
 .skills__ts{
-  width: 40%;
+  width: 80%;
 }
 
 .skills__js{
