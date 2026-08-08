@@ -1265,3 +1265,22 @@ cursor: pointer;
       grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/*==================== COMPETENCY CHIPS ====================*/
+.skills__tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  row-gap: .5rem;
+  align-content: flex-start;
+}
+
+.skills__tag{
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+  background-color: var(--first-color-lighter);
+  padding: .4rem .75rem;
+  border-radius: .5rem;
+  white-space: nowrap;
+}
